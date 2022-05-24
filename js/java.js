@@ -51,7 +51,28 @@ var btn = document.querySelectorAll (".key li"),
         btn[i].addEventListener('click', function(){
         var btnVal = this.innerHTML,
         inputVal = input.innerHTML;
-        console.log(btnVal);
+        //console.log(btnVal);
+
+switch(btnVal){
+case"c":
+input.innerHTML = "";
+break;
+case"=":
+var equacao = inputVal;
+
+if(equacao){
+    try{
+        input.innerHTML = eval(equacao);
+    } catch (e){
+        alert ("Erro na Expessão")
+    }
+}
+break;
+default:
+input.innerHTML += btnVal;
+break;
+}
+
         })
 
         }
