@@ -72,7 +72,6 @@ default:
 input.innerHTML += btnVal;
 break;
 }
-
         })
 
         }

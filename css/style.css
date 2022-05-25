@@ -10,7 +10,8 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 body{
     text-align: center;
     background-color: bisque;
-    color: black;
+    color: rgb(255, 0, 0);
+    background-image: url("https://rz10.de/files/2017/01/Fotolia_115308495_XL.jpg");
     
 }
 
@@ -26,8 +27,8 @@ li{
 }
 
 #calculadora{
-    width: 234px;
-    height: 230px;
+    width: 534px;
+    height: 700px;
     margin: 0 auto;
     padding: 2px;
     background-color: rgb(143, 143, 143);
@@ -35,8 +36,8 @@ li{
 .input-valor{
     margin: 8px auto;
     width: 95%;
-    height: 30px;
-    font-size: 16px;
+    height: 60px;
+    font-size: 40px;
     overflow: hidden;
     text-align: right;
     color: #48484d;
@@ -46,8 +47,8 @@ li{
 }
 
 .key li{ 
-width: 50px;
-height: 30px;
+width: 120px;
+height: 120px;
 border-radius: 3px;
 color: #fff;
 background-color: #6c73fa;
